@@ -1,6 +1,6 @@
 const {Schema, model} = require('mongoose')
 const userSchema = new Schema (
-  
+
 {
     username:{
         type: String,
@@ -35,4 +35,5 @@ toJSON:{
 //   return this.friends.length
 // })
 const users = model('users', userSchema);
-module.exports= users;
+
+
